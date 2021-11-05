@@ -77,7 +77,8 @@ To get a local copy up and running follow the steps below.
 
 ### Prerequisites
 * Install Brew `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-* Install Java 
+* Install Java Development Kit `brew install openjdk` 
+* Install your favorite IDE. I'm using Eclipse `brew install --cask eclipse-java` 
 
 
 ### Installation
