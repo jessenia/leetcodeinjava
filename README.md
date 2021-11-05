@@ -24,7 +24,7 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-[![wakatime](https://wakatime.com/badge/github/jessenia/leetcodeinjava.svg)](https://wakatime.com/badge/github/jessenia/leetcodeinjava)
+[![wakatime](https://wakatime.com/badge/user/3db30390-e427-473b-ac71-eb358bd4e3e9/project/430ade7f-b09b-4397-b114-d39532460877.svg)](https://wakatime.com/badge/user/3db30390-e427-473b-ac71-eb358bd4e3e9/project/430ade7f-b09b-4397-b114-d39532460877)
 
 
 <!-- TABLE OF CONTENTS -->
