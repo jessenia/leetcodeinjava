@@ -58,13 +58,13 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This is repo is acting as a sandbox for writing and tesitng Solidity contracts found in the Ethereum Blockchain Developer Bootcamp With Solidity course on Udemy. 
+This project is my sandbox for working with LeetCode problems found in the Udemy course "LeetCode in Java: Algorithms Coding Interview Questions". 
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
-* [Solidity](https://docs.soliditylang.org/)
+* [Java](https://www.java.com/en/download/help/index_installing.html/)
 
 <figure><embed src="https://wakatime.com/share/@jessenia/f2089f69-d26a-45c1-84a5-bbf6f1a6a034.svg"></embed></figure>
 
