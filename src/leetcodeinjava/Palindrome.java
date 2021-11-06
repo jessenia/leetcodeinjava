@@ -16,6 +16,7 @@ public class Palindrome {
 		//TC #2 all palindromes return true
 		System.out.println("N is 12321. Expected Results is true. Actual result is " + isPalindrome(12321));
 		System.out.println("N is 1221. Expected Results is true. Actual result is " + isPalindrome(1221));
+		System.out.println("N is 333333. Expected Results is true. Actual result is " + isPalindrome(3333333));
 		
 		//TC #3 non-palindromes return false
 		System.out.println("N is 445. Expected Results is false. Actual result is " + isPalindrome(445));
@@ -33,13 +34,15 @@ public class Palindrome {
 		}
 		
 		reversedNum = 0;
+		
 		while (n > reversedNum) {
 			lastDigit = n % 10;
-			reversedNum = reversedNum * 10 + lastDigit;
+			reversedNum = (reversedNum * 10) + lastDigit;
 			n = n/10;
 		}
 		
 		isPalindrome = (n == reversedNum || n == reversedNum/10);
+		
 		return isPalindrome;
 	}
 }
