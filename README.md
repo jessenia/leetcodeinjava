@@ -134,8 +134,8 @@ Project Link: [https://github.com/jessenia/leetcodeinjava](https://github.com/je
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 * [Choose an Open Source License](https://choosealicense.com)
-* [Udemy Ethereum Blockchain Developer Bootcamp With Solidity](https://www.udemy.com/course/blockchain-developer)
-* [Ethereum Blockchain Developer Guide](https://ethereum-blockchain-developer.com/)
+* [LeetCode in Java: Algorithms Coding Interview Questions
+](https://www.udemy.com/course/leetcode-coding-interview-question-solution-explanation)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
