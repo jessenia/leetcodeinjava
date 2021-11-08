@@ -1,7 +1,5 @@
 package leetcodeinjava;
 
-import java.lang.reflect.Array;
-
 /**
  * 
  * Write a function that reverse a string. The input string is given as an array
@@ -22,41 +20,11 @@ public class ReverseString {
 		System.out.println(reverseString("orange"));
 		System.out.println(reverseString("strawberry"));
 		
-		char[] reverseStringArr = reverseString(peachArr);
-		StringBuilder sb = new StringBuilder();
-		
-		for (int i = 0; i < reverseStringArr.length;i++) {
-			sb.append(reverseStringArr[i]);
-		}
-		
-		System.out.println(sb);
-		
-		sb.setLength(0);
-		reverseStringArr = reverseString(bananaArr);
-		
-		for (int i = 0; i < reverseStringArr.length;i++) {
-			sb.append(reverseStringArr[i]);
-		}
-		
-		System.out.println(sb);
+		System.out.println(printResults(peachArr));
+		System.out.println(printResults(bananaArr));
+		System.out.println(printResults(orangeArr));
+		System.out.println(printResults(strawberryArr));
 
-		sb.setLength(0);
-		reverseStringArr = reverseString(orangeArr);
-		
-		for (int i = 0; i < reverseStringArr.length;i++) {
-			sb.append(reverseStringArr[i]);
-		}
-		
-		System.out.println(sb);
-		
-		sb.setLength(0);
-		reverseStringArr = reverseString(strawberryArr);
-		
-		for (int i = 0; i < reverseStringArr.length;i++) {
-			sb.append(reverseStringArr[i]);
-		}
-		
-		System.out.println(sb);		
 	}
 	
 	/*
@@ -95,6 +63,18 @@ public class ReverseString {
 		}
 		
 		return c;
+		
+	}
+	
+	private static String printResults(char[] charArr) {
+		char[] reverseStringArr = reverseString(charArr);
+		StringBuilder sb = new StringBuilder();
+		
+		for (int i = 0; i < reverseStringArr.length;i++) {
+			sb.append(reverseStringArr[i]);
+		}
+		
+		return sb.toString();
 		
 	}
 }
